@@ -21,7 +21,7 @@ app.use(morgan("dev"));
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin:"*",
     credentials: true
   })
 );
